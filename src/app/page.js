@@ -1,12 +1,12 @@
+"use client"
 import Image from 'next/image';
-import Navbar from './Components/navbar/Navbar'
-import Footer from './Components/Footer/Footer';
+import Slider from './Modules/Module1/Slider';
 
-export default function Home() {
+const  Home = () => {
   return (
-    <>
-    <Navbar/>
-    <Footer/>
-    </>
+    <div className='main-page-container'> 
+      <Slider/>
+    </div>
   )
 }
+export default Home

@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.main-page-container{
+  text-align: center;
+  /* padding-top:8%; */
+}
+.main-page-container h1{
+  font-size:30px;
+  font-weight: bold;
+}
